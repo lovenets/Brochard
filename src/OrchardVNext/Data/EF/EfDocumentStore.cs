@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using OrchardVNext.ContentManagement.Records;
 
-namespace OrchardVNext.Data.EF
-{
-    public class EfDocumentStore : IDocumentStore {
+namespace OrchardVNext.Data.EF {
+    public class EFDocumentStore : IDocumentStore {
         private readonly DataContext _dataContext;
 
-        public EfDocumentStore(DataContext dataContext) {
+        public EFDocumentStore(DataContext dataContext) {
             _dataContext = dataContext;
         }
 

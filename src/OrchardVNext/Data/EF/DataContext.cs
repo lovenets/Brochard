@@ -6,7 +6,6 @@ using JetBrains.Annotations;
 using Microsoft.AspNet.Mvc;
 using Microsoft.Data.Entity;
 using Microsoft.Data.Entity.ChangeTracking;
-using Microsoft.Data.Entity.Infrastructure;
 using OrchardVNext.Environment.Configuration;
 
 namespace OrchardVNext.Data.EF {
